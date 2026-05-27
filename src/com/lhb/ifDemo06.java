@@ -1,9 +1,8 @@
 package com.lhb;
-
 import java.util.Scanner;
-
 public class ifDemo06 {
     public static void main(String[] args) {
+
         /*
         需求:很多App都有不同的优惠券
         假设，现在有以下优惠券
@@ -22,6 +21,7 @@ public class ifDemo06 {
         double coupon1 = 0;
         double coupon2 = 0;
         if (price > 0) {
+
             //计算在使用优惠券的情况下，可以减免多少钱
             if (price < 10) coupon1 = 0;
             else if (price < 50) coupon1 = 8;
